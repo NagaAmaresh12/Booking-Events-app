@@ -1,0 +1,221 @@
+  {
+    "events": [
+      {
+        "id": 1,
+        "title": "Summer Music Festival",
+        "description": "Join the biggest music festival of the summer with live performances by top artists.",
+        "category": "Music",
+        "date": "2024-08-30T19:00:00",
+        "location": "Central Park, New York",
+        "city": {
+          "name": "New York",
+          "url": "https://plus.unsplash.com/premium_photo-1680582107403-04dfac02efc3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        "available_seats": 150,
+        "price": 50.00,
+        "image_url": "https://example.com/images/summer_music_festival.jpg",
+        "organizer": "MusicFest Inc.",
+        "rating": 4.8,
+        "reviews": [
+          {
+            "user": "John Doe",
+            "rating": 5,
+            "comment": "Amazing festival! Had a great time!"
+          },
+          {
+            "user": "Jane Smith",
+            "rating": 4,
+            "comment": "Great performances, but too crowded."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Tech Conference 2024",
+        "description": "Explore the latest trends and technologies in the tech industry.",
+        "category": "Business",
+        "date": "2024-09-15T09:00:00",
+        "location": "Tech Hub, San Francisco",
+        "city": {
+          "name": "San Francisco",
+          "url": "https://plus.unsplash.com/premium_photo-1682320427086-5c1fc01fa571?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        "available_seats": 50,
+        "price": 150.00,
+        "image_url": "https://example.com/images/tech_conference_2024.jpg",
+        "organizer": "TechTalks",
+        "rating": 4.7,
+        "reviews": [
+          {
+            "user": "Alex Johnson",
+            "rating": 5,
+            "comment": "Highly informative event with great speakers!"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Art Exhibition: Modern Masterpieces",
+        "description": "A display of the most exquisite modern art from world-renowned artists.",
+        "category": "Art",
+        "date": "2024-11-01T10:00:00",
+        "location": "Art Gallery, Los Angeles",
+        "city":{
+          "name": "Los Angeles",
+          "url": "https://plus.unsplash.com/premium_photo-1681429766784-aca7951d19cd?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        "available_seats": 100,
+        "price": 30.00,
+        "image_url": "https://example.com/images/art_exhibition.jpg",
+        "organizer": "ArtExpo",
+        "rating": 4.6,
+        "reviews": [
+          {
+            "user": "Emily Clark",
+            "rating": 5,
+            "comment": "A must-see for all art lovers."
+          },
+          {
+            "user": "David Lee",
+            "rating": 4,
+            "comment": "Great collection, but the lighting could be improved."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Food Carnival",
+        "description": "A celebration of diverse cuisines and culinary arts with live cooking shows.",
+        "category": "Food",
+        "date": "2024-10-12T12:00:00",
+        "location": "Market Square, Chicago",
+        "city": {
+          "name": "Chicago",
+          "url": "https://plus.unsplash.com/premium_photo-1681429766869-3c3028107341?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        "available_seats": 200,
+        "price": 25.00,
+        "image_url": "https://example.com/images/food_carnival.jpg",
+        "organizer": "TasteFest",
+        "rating": 4.9,
+        "reviews": [
+          {
+            "user": "Sarah Wilson",
+            "rating": 5,
+            "comment": "The best food festival I've ever been to!"
+          },
+          {
+            "user": "Mike Adams",
+            "rating": 4,
+            "comment": "Great food, but long lines at some stalls."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Fitness Bootcamp",
+        "description": "An intensive fitness bootcamp led by professional trainers for all fitness levels.",
+        "category": "Health & Fitness",
+        "date": "2024-09-05T06:00:00",
+        "location": "Seaside Park, Miami",
+        "city": {
+          "name": "Miami",
+          "url": "https://plus.unsplash.com/premium_photo-1681429766540-f05bd18b4002?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        "available_seats": 75,
+        "price": 100.00,
+        "image_url": "https://example.com/images/fitness_bootcamp.jpg",
+        "organizer": "FitLife Events",
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "Tom Brady",
+            "rating": 5,
+            "comment": "Challenging but worth every second!"
+          },
+          {
+            "user": "Lisa Green",
+            "rating": 4,
+            "comment": "Great instructors, but a bit too intense for beginners."
+          }
+        ]
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "username": "johndoe",
+        "email": "johndoe@example.com",
+        "password": "password123",
+        "booked_events": [
+          {
+            "event_id": 1,
+            "seats_booked": 2,
+            "booking_date": "2024-08-01T14:30:00"
+          },
+          {
+            "event_id": 3,
+            "seats_booked": 1,
+            "booking_date": "2024-10-20T12:00:00"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "username": "janesmith",
+        "email": "janesmith@example.com",
+        "password": "password456",
+        "booked_events": [
+          {
+            "event_id": 2,
+            "seats_booked": 1,
+            "booking_date": "2024-09-01T10:00:00"
+          },
+          {
+            "event_id": 4,
+            "seats_booked": 3,
+            "booking_date": "2024-09-25T09:30:00"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "username": "emilyclark",
+        "email": "emilyclark@example.com",
+        "password": "pass789",
+        "booked_events": [
+          {
+            "event_id": 3,
+            "seats_booked": 2,
+            "booking_date": "2024-10-15T11:00:00"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "username": "mikeadams",
+        "email": "mikeadams@example.com",
+        "password": "mikepass123",
+        "booked_events": [
+          {
+            "event_id": 4,
+            "seats_booked": 1,
+            "booking_date": "2024-10-05T12:45:00"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "username": "tombrady",
+        "email": "tombrady@example.com",
+        "password": "bradypass1",
+        "booked_events": [
+          {
+            "event_id": 5,
+            "seats_booked": 1,
+            "booking_date": "2024-08-30T06:30:00"
+          }
+        ]
+      }
+    ]
+  }
