@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Button from '../utils/Button'
 import ProfileButton from '../utils/ProfileButton'
 const NavBar = ({route}) => {
+    
     return (
         <header className='h-[60px] w-full fixed left-0 top-0 z-[10] py-10 px-24 text-lg text-black  '>
             <nav className='relative h-full w-full flex items-center justify-between'>

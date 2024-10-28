@@ -26,7 +26,7 @@ const Routing = () => {
             <Route path='*' element={<HomePage/>}/>
 
         </Routes>
-        {route && route==="signin" || route=="signup" && route!== undefined ?(""):(<Footer/>)}
+        {route && route==="signin" || route=="signup" || route=="profile" && route!== undefined ?(""):(<Footer/>)}
       
     </>
   )
